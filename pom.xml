@@ -11,6 +11,7 @@
     <modules>
         <module>JUC</module>
         <module>algorithm</module>
+        <module>SQL</module>
     </modules>
 
     <properties>
