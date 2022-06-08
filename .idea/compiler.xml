@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JUC" />
         <module name="笔试" />
+        <module name="algorithm" />
       </profile>
     </annotationProcessing>
   </component>
