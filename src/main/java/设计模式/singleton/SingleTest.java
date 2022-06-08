@@ -11,7 +11,8 @@ public class SingleTest {
               int maximumPoolSize,
               long keepAliveTime,
               TimeUnit unit,
-              BlockingQueue<Runnable> workQueue
+              BlockingQueue<Runnable> workQueue,
+              SingletonThreadFactory 自定义线程工厂（方便命名线程）
          */
         ThreadPoolExecutor executor = new ThreadPoolExecutor(10, 20,  
                 1,

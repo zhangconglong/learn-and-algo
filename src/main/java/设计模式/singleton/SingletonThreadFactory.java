@@ -3,6 +3,7 @@ package 设计模式.singleton;
 import java.util.concurrent.ThreadFactory;
 
 /**
+ * 自定义线程工厂（方便命名线程）
  * 用来测试单例
  * 
  * @author zhang
