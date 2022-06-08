@@ -1,10 +1,9 @@
 package 设计模式.combination.menu;
 
 /**
- * @Version: v1.0
- * @ClassName: leaf
- * @Description: 菜单项类：叶子节点
- * @Author: zhangconglong on 2021/11/9
+ * 菜单项类：叶子节点
+ * @author: luyi
+ * time: 2022/6/8 16:08
  */
 public class MenuItem extends MenuComponent{
 
