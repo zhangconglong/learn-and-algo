@@ -1,4 +1,4 @@
-package Juc.异步回调.future.CompletableFuture;
+package Juc.异步回调.future.CompletableFuture.任务编排;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  *  获得结果和触发计算
  */
-public class CompletableFutureAPI_1 {
+public class CompletableFutureAPI_获得结果和触发计算 {
     
     private static void group1() throws InterruptedException, ExecutionException {
         CompletableFuture<String> completableFuture = CompletableFuture.supplyAsync(() -> {
