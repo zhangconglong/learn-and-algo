@@ -33,8 +33,8 @@ public class FutureAPIDemo {
         
         /*
          * 阻塞方式
-         * （1）get容易导致阻塞，一般建议放在程序后面
-         * （2）isDone轮询，耗费CPU资源
+         * （1）get禁用！容易导致阻塞，一般建议放在程序后面，建议不要用get。
+         * （2）isDone()轮询，耗费CPU资源。但是可以省一些资源
          */
         //System.out.println(futureTask.get());
         //System.out.println(futureTask.get(3,TimeUnit.SECONDS)); //设置阻塞的最大等待时间
