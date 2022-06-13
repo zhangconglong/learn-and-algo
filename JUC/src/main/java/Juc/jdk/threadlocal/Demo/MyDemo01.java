@@ -11,34 +11,16 @@ package Juc.jdk.threadlocal.Demo;
  * 2.get()：获取当前线程绑定的变量
  */
 public class MyDemo01 {
-    ThreadLocal<String> threadLocal = new ThreadLocal<>();
+    public ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
     //变量
     private String content;
 
-    private String getContent() {
+    public String getContent() {
         return threadLocal.get();
     }
-    private void setContent(String content) {
+    public void setContent(String content) {
         //this.content = content;
         threadLocal.set(content);//变量绑定到当前线程
-    }
-
-    public static void main(String[] args) {
-        MyDemo01 demo = new MyDemo01();
-
-        for (int i = 0; i < 5; i++) {
-            Thread thread = new Thread(() -> {
-                //变量绑定到当前线程
-                demo.setContent(Thread.currentThread().getName() + "的数据");
-
-                System.out.println("----------------");
-                System.out.println(Thread.currentThread().getName() + "-->" + demo.getContent());
-            });
-            thread.setName("线程" + i);
-            thread.start();
-        }
-
-        demo.threadLocal.remove();        
     }
 }

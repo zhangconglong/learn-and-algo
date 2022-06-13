@@ -6,6 +6,7 @@ package Juc.jdk.threadlocal.Demo;
 public class Demo02 {
     //记录当前线程名
     private String content;
+
     public String getContent() {
         return content;
     }
@@ -23,10 +24,10 @@ public class Demo02 {
                 //加了锁的代码线程只能排队进行访问，失去了并发性
                 //如果不加锁：所有线程可能会共用同一个i
 //                synchronized (Demo02.class) {
-                    demo02.setContent(Thread.currentThread().getName() + "的数据");
-                    System.out.println("----------------");
-                    //线程名+线程的数据
-                    System.out.println(Thread.currentThread().getName() + "-->" + demo02.getContent());
+                demo02.setContent(Thread.currentThread().getName() + "的数据");
+                System.out.println("----------------");
+                //线程名+线程的数据
+                System.out.println(Thread.currentThread().getName() + "-->" + demo02.getContent());
 //                }
             });
             System.out.println(i);
