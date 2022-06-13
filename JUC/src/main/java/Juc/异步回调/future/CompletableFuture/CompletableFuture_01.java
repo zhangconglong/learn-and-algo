@@ -10,7 +10,7 @@ import java.util.concurrent.*;
  * time: 2022/4/20 13:01
  */
 @Slf4j
-public class CompletableFutureDemo01 {
+public class CompletableFuture_01 {
     
     //region 创建全局 线程池
     static ThreadPoolExecutor executor = new ThreadPoolExecutor(5,

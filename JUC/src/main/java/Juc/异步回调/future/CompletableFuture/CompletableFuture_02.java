@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 /**
  * 任务编排
  */
-public class CompletableFutureDemo02 {
+public class CompletableFuture_02 {
 
     //创建全局线程池
     static ThreadPoolExecutor executor = new ThreadPoolExecutor(5,
