@@ -1,4 +1,4 @@
-package Juc.新特性.stream;
+package stream;
 
 import java.util.Arrays;
 import java.util.List;
