@@ -3,6 +3,12 @@ package Juc.jdk.threadlocal.gaofei;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 自己实现一个ThreadLocal
+ * 
+ * @author: luyi
+ * time: 2022/6/13 9:08
+ */
 public class MyThreadLocal {
 
     Map<Thread, Object> map = new HashMap<>();
