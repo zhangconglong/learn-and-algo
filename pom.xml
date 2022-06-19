@@ -13,6 +13,7 @@
         <module>algorithm</module>
         <module>SQL</module>
         <module>Feature1.8</module>
+        <module>jdk</module>
     </modules>
 
     <properties>
