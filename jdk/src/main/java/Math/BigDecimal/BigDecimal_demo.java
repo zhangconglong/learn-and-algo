@@ -12,6 +12,11 @@ import java.math.BigDecimal;
 public class BigDecimal_demo {
 
     public static void main(String[] args) {
+        compare();
+        calculate();
+    }
+
+    public static void compare() {
 //        BigDecimal bigDecimal = BigDecimal.ONE;
         BigDecimal bigDecimal = new BigDecimal("1.0");
         BigDecimal bigDecimal1 = new BigDecimal("1.00");
@@ -30,5 +35,20 @@ public class BigDecimal_demo {
          *      >0 第一个大于第二个
          *      <0 第一个小于第二个    
          */
+    }
+
+    /**
+     * new创建
+     *   （1）使用字符串（强制）
+     *   （2）使用整数
+     */
+    public static void calculate() {
+        BigDecimal bigDecimal = new BigDecimal(1.2);
+//        BigDecimal bigDecimal = new BigDecimal("1.2");
+        BigDecimal bigDecimal1 = new BigDecimal("1.2234");
+        
+        //精度丢失
+        System.out.println( "\n\n" + "compareTo: " + (bigDecimal.add(bigDecimal1)) );//忽略位数
+        
     }
 }
