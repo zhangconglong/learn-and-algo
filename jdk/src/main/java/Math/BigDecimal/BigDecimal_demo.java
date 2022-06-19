@@ -14,6 +14,7 @@ public class BigDecimal_demo {
     public static void main(String[] args) {
         compare();
         calculate();
+        get();
     }
 
     public static void compare() {
@@ -49,6 +50,16 @@ public class BigDecimal_demo {
         
         //精度丢失
         System.out.println( "\n\n" + "compareTo: " + (bigDecimal.add(bigDecimal1)) );//忽略位数
-        
+    }
+
+    /**
+     * 若数据库中存储 浮点数
+     *      valueOf获取数据库的值
+     */
+    public static void get() {
+        BigDecimal bigDecimal = BigDecimal.valueOf(1.2234d);
+
+        //精度丢失
+        System.out.println( "\n\n" + bigDecimal );//忽略位数
     }
 }
