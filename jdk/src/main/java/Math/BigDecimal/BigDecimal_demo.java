@@ -16,13 +16,16 @@ public class BigDecimal_demo {
         BigDecimal bigDecimal = new BigDecimal("1.0");
         BigDecimal bigDecimal1 = new BigDecimal("1.00");
         
-        System.out.println( "equals: " + bigDecimal.equals(bigDecimal1)  );
-        System.out.println( "compareTo: " + (bigDecimal.compareTo(bigDecimal1)==0) );
+        System.out.println( "==: " + (bigDecimal==bigDecimal1)  );//比较地址。new创建，地址不同
+        System.out.println( "equals: " + bigDecimal.equals(bigDecimal1)  ); //重写了equals，比较scale
+        //推荐
+        System.out.println( "compareTo: " + (bigDecimal.compareTo(bigDecimal1)==0) );//忽略位数
 
 
         /* 比较2.0和2.00
          *  （1）equals 不等
-         *      无法用于金额比较（类似String）
+         *      【无法用于金额比较】（类似String）
+         *          要求 位数 也必须要相同
          *  （2）compareTo 相等
          *      >0 第一个大于第二个
          *      <0 第一个小于第二个    
