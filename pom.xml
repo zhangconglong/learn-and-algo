@@ -14,6 +14,7 @@
         <module>SQL</module>
         <module>Feature1.8</module>
         <module>jdk</module>
+        <module>Beauty</module>
     </modules>
 
     <properties>
