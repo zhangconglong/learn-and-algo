@@ -1,5 +1,7 @@
 package 题目.力扣.LCS.LCS02完成一半的题目;
 
+import java.util.Arrays;
+
 class Solution {
     public int halfQuestions(int[] questions) {
         
