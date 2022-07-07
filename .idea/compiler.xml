@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Feature1.8" />
+        <module name="Beauty" />
+        <module name="jdk" />
         <module name="JUC" />
         <module name="笔试" />
         <module name="algorithm" />
