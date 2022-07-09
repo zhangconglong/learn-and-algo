@@ -15,6 +15,7 @@
         <module>Feature1.8</module>
         <module>jdk</module>
         <module>Beauty</module>
+        <module>frame</module>
     </modules>
 
     <properties>
