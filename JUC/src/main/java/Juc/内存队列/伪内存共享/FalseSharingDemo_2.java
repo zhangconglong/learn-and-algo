@@ -12,12 +12,12 @@ class VolatileLong {
     /*
     在64位系统中，一个缓存页大小为64B
 
-    64B = 对象头mark word  8B
-       + 对象头klass word  8B
-       + value            8B
-       + long*5           5*8B
+    64B = 对象头mark word    8B
+        + 对象头klass word   8B
+        + value             8B
+        + long*5            5*8B
      */
-//    long padding1, padding2, padding3, padding4, padding5;
+    long padding1, padding2, padding3, padding4, padding5;
 }
 
 /**
@@ -50,7 +50,7 @@ public class FalseSharingDemo_2 {
             //（1）数组存储（以缓存页大小加载数组）
             VolatileLong[] shareArray = new VolatileLong[processorsNum];
 
-            //（2）创建12个线程
+            //（2）创建6个线程
             for (int j = 0; j < processorsNum; j++) {
                 shareArray[j] = new VolatileLong();
             }
