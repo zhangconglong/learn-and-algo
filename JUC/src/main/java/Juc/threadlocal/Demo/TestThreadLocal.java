@@ -22,7 +22,7 @@ public class TestThreadLocal {
             thread.start();
         }
 
-        //最后一定要移除threadLocal
+        //最后一定要移除一次threadLocal
         demo.threadLocal.remove();
     }
 
