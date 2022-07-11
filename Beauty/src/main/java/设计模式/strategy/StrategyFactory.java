@@ -18,10 +18,10 @@ public class StrategyFactory {
     private static Map<Integer, Object> strategyMap = new HashMap<>(16);
 
     static {
-        strategyMap.put(PayWayEnum.AL_PAY.getCode(), new ALPayStrategy());
-        strategyMap.put(PayWayEnum.WEICHAT_PAY.getCode(), new WeChatPayStrategy());
-        strategyMap.put(PayWayEnum.CARD_PAY.getCode(),new CardPayStrategy());
-        strategyMap.put(PayWayEnum.PONIT_COUPON_PAY.getCode(),new PointCouponPayStrategy());
+        strategyMap.put(PayWayEnum.AL_PAY.getCode(),            new ALPayStrategy());
+        strategyMap.put(PayWayEnum.WEICHAT_PAY.getCode(),       new WeChatPayStrategy());
+        strategyMap.put(PayWayEnum.CARD_PAY.getCode(),          new CardPayStrategy());
+        strategyMap.put(PayWayEnum.PONIT_COUPON_PAY.getCode(),  new PointCouponPayStrategy());
     }
 
     public PayStrategy create(Integer payCode){
