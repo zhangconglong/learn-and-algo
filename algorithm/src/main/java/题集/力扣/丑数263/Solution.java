@@ -1,4 +1,4 @@
-package 力扣.丑数263;
+package 题集.力扣.丑数263;
 
 class Solution {
     public boolean isUgly(int num) {

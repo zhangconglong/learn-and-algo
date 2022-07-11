@@ -1,4 +1,4 @@
-package 力扣.杨辉三角118;//package 题目.力扣.杨辉三角118;
+package 题集.力扣.杨辉三角118;//package 题目.力扣.杨辉三角118;
 //
 //import java.util.ArrayList;
 //import java.util.List;
