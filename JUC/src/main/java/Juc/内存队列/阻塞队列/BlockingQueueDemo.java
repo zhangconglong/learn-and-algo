@@ -1,4 +1,4 @@
-package Juc.阻塞队列;
+package Juc.内存队列.阻塞队列;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
