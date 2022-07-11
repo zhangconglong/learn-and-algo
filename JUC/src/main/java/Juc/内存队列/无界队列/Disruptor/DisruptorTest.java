@@ -1,4 +1,4 @@
-package Juc.内存队列.Disruptor;
+package Juc.内存队列.无界队列.Disruptor;
 
 import com.lmax.disruptor.BlockingWaitStrategy;
 import com.lmax.disruptor.EventHandler;

@@ -1,4 +1,4 @@
-package Juc.内存队列.Disruptor;
+package Juc.内存队列.无界队列.Disruptor;
 
 import java.util.concurrent.ThreadFactory;
 
