@@ -1,4 +1,4 @@
-package Juc.threadlocal.gaofei;
+package Juc.threadlocal.自己实现一个ThreadLocal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package Juc.threadlocal.gaofei.util;
+package Juc.threadlocal.自己实现一个ThreadLocal.util;
 
-import Juc.threadlocal.gaofei.MyThreadLocal;
+import Juc.threadlocal.自己实现一个ThreadLocal.MyThreadLocal;
 import org.springframework.stereotype.Component;
 
 

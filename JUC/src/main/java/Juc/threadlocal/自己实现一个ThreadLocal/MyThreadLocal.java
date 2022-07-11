@@ -1,4 +1,4 @@
-package Juc.threadlocal.gaofei;
+package Juc.threadlocal.自己实现一个ThreadLocal;
 
 import java.util.HashMap;
 import java.util.Map;

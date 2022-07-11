@@ -1,12 +1,12 @@
-package Juc.threadlocal.gaofei.controller;
+package Juc.threadlocal.自己实现一个ThreadLocal.controller;
 
-import Juc.threadlocal.gaofei.util.MyUtil;
+import Juc.threadlocal.自己实现一个ThreadLocal.util.MyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * springmvc是单例的:默认情况下,无论多少个请求到这个controller,此controller只会被实例化一次
+ * springmvc是单例的: 默认情况下,无论多少个请求到这个controller,此controller只会被实例化一次
  * 单例:线程安全问题
  */
 @RestController
