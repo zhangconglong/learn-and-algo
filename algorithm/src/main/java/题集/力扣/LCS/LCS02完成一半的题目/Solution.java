@@ -1,4 +1,4 @@
-package 力扣.LCS.LCS02完成一半的题目;
+package 题集.力扣.LCS.LCS02完成一半的题目;
 
 import java.util.Arrays;
 

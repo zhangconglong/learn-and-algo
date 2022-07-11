@@ -1,4 +1,4 @@
-package 力扣.括号22;
+package 题集.力扣.括号22;
 
 import java.util.ArrayList;
 import java.util.List;
