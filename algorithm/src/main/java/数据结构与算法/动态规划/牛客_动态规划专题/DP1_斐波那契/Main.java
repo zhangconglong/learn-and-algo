@@ -1,4 +1,4 @@
-package 数据结构与算法.动态规划.斐波那契;
+package 数据结构与算法.动态规划.牛客_动态规划专题.DP1_斐波那契;
 
 import java.util.Scanner;
 
