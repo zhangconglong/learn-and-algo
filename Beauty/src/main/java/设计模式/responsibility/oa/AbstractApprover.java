@@ -2,8 +2,10 @@ package 设计模式.responsibility.oa;
 
 public abstract class AbstractApprover {
 	protected AbstractApprover successor;//定义后继对象
+
 	protected String name;//审批者姓名
-	public AbstractApprover(String name) {
+
+	AbstractApprover(String name) {
 		this.name=name;
 	}
 	
@@ -11,6 +13,7 @@ public abstract class AbstractApprover {
 	public void setSuccessor(AbstractApprover successor) {
 		this.successor=successor;
 	}
+
 	//抽象请求处理方法
 	public abstract void processRequest(PurchaseRequest request);
 

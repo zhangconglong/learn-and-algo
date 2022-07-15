@@ -7,9 +7,9 @@ public class Client {
     public static void main(String[] args) {
         //职责中的关系对象
         AbstractApprover w1, w2, w3;
-        w1 = new Director("小红1");
-        w2 = new VicePresident("小红2");
-        w3 = new President("小红3");
+        w1 = new Director("");
+        w2 = new VicePresident("");
+        w3 = new President("");
         //创建职责链
         w1.setSuccessor(w2);
         w2.setSuccessor(w3);
