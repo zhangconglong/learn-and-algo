@@ -1,6 +1,6 @@
 package 设计模式.responsibility.oa;
 
-public class Director extends Approver {
+public class Director extends AbstractApprover {
 	public Director(String name) {
 		super(name);
 	}

@@ -1,6 +1,6 @@
 package 设计模式.responsibility.oa;
 
-public class President extends Approver {
+public class President extends AbstractApprover {
 	public President(String name) {
 		super(name);
 	}
