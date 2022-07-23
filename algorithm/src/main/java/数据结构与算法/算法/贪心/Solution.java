@@ -1,4 +1,4 @@
-package 数据结构与算法.贪心;
+package 数据结构与算法.算法.贪心;
 
 public class Solution {
     public static boolean canJump(int[] nums) {

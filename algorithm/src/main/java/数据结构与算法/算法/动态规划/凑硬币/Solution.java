@@ -1,4 +1,4 @@
-package 数据结构与算法.动态规划.凑硬币;
+package 数据结构与算法.算法.动态规划.凑硬币;
 
 import java.lang.Math;
 

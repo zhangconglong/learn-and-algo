@@ -1,4 +1,4 @@
-package 数据结构与算法.滑动窗口.最长无重复子串;//package 算法.滑动窗口.最长无重复子串;
+package 数据结构与算法.算法.滑动窗口.最长无重复子串;//package 算法.滑动窗口.最长无重复子串;
 //
 //import java.util.HashSet;
 //import java.util.Hashtable;

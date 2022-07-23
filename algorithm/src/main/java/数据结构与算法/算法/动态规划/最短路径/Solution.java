@@ -1,4 +1,4 @@
-package 数据结构与算法.动态规划.最短路径;//package 算法.动态规划.最短路径;
+package 数据结构与算法.算法.动态规划.最短路径;//package 算法.动态规划.最短路径;
 //
 //import java.util.Arrays;
 //

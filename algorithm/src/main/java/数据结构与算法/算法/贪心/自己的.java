@@ -1,4 +1,4 @@
-package 数据结构与算法.贪心;//package 算法.贪心;
+package 数据结构与算法.算法.贪心;//package 算法.贪心;
 //
 //import java.util.Arrays;
 //
